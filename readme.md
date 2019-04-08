@@ -14,28 +14,28 @@ Although [1] refers to a RSSI signal, this implementation can be runned with any
 
 ### Clone repository
 
-    ~ $ git clone https://github.com/philipiv/rssi-filtering-kalman-grey-fourier-particles-bellavista2006.git
-    ~ $ cd rssi-filtering-kalman-grey-fourier-particles-bellavista2006
+    ~ $ git clone https://github.com/philipiv/rssi-filtering-kalman.git
+    ~ $ cd rssi-filtering-kalman
 
 ### Project requirements 
 
 It is strongly advised you work in a virtual environment.\
 First step is to create one and install all necessary project requirements.
        
-    ~/rssi-filtering-kalman-grey-fourier-particles-bellavista2006 $ virtualenv env --python=python3
-    ~/rssi-filtering-kalman-grey-fourier-particles-bellavista2006 $ source env/bin/activate
-    ~/rssi-filtering-kalman-grey-fourier-particles-bellavista2006 $ pip install -r requirements.txt
+    ~/rssi-filtering-kalman $ virtualenv env --python=python3
+    ~/rssi-filtering-kalman $ source env/bin/activate
+    ~/rssi-filtering-kalman $ pip install -r requirements.txt
 
 ## Execution
 
-    ~/rssi-filtering-kalman-grey-fourier-particles-bellavista2006 $ cd scripts
-    ~/rssi-filtering-kalman-grey-fourier-particles-bellavista2006/scripts $ python main.py [--file /path/to/file]
+    ~/rssi-filtering-kalman $ cd scripts
+    ~/rssi-filtering-kalman/scripts $ python main.py [--file /path/to/file]
 
 Optionaly, you can set the path to a file containing your data, default path is _../data/sample.csv_.
 
 For example:
 
-    ~/rssi-filtering-kalman-grey-fourier-particles-bellavista2006/scripts $ python strategy.py --file ../data/sample.csv
+    ~/rssi-filtering-kalman/scripts $ python strategy.py --file ../data/sample.csv
 
 
 ## Results
